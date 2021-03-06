@@ -272,9 +272,9 @@ Using errbacks to catch exceptions in request processing
 --------------------------------------------------------
 
 The errback of a request is a function that will be called when an exception
-is raise while processing it.
+is raised while processing it.
 
-It receives a :exc:`~twisted.python.failure.Failure` as first parameter and can
+It receives a :exc:`~twisted.python.failure.Failure` as its first parameter and can
 be used to track connection establishment timeouts, DNS errors etc.
 
 Here's an example spider logging all errors and catching some specific
